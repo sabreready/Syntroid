@@ -19,7 +19,7 @@ jobs:
       - name: Install iOS SDK
         run: |
           git clone --depth=1 https://github.com/theos/sdks.git /tmp/sdks
-          cp -r /tmp/sdks/iPhoneOS16.5.sdk $HOME/theos/sdks/
+          cp -rL /tmp/sdks/iPhoneOS16.5.sdk $HOME/theos/sdks/
 
       - name: Build
         run: |
