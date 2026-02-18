@@ -1,0 +1,8 @@
+Package: com.yourname.syntroid
+Name: Syntroid
+Version: 2.0.0
+Architecture: iphoneos-arm64
+Description: Syntroid mod — JSON config item spawner for Animal Company
+Maintainer: You
+Author: You
+Section: Tweaks
